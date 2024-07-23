@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav-left{
+    padding-left: 6rem;
+    /* background-color: brown; */
+    width: 50%; 
+}
+
+.logo{
+    width: 108px;
+    max-width: none;
+    margin-top: -3px;
+}
+
+.nav-right{
+    /* background-color: blue; */
+    width: 50%;
+}
+
+.nav-right ul{
+    padding-right: 5rem;
+    right: 4rem;
+}
+
+.nav-left ul{
+    padding-left: 15px;
+}
+
+
+
+.navbar{
+    /* background-color: red; */
+    height: 54px;
+
+}
+
+.nav-items li{
+    padding: 5px 6px;
+    margin: 5px 5px;
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* ===========================SEC-1=========================================== */
+
+.sec-1{
+    height: 65vh;
+    background-color: #f2f2f2;
+}
+
+.image-container{
+    width: 60%;
+
+}
+.content-container{
+    width: 40%;
+}
+
+.content-container h1{
+    margin-top: 6rem;
+    margin-left: 8rem;
+    width: 18rem;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 2.3125rem;
+}
+
+.content-container p{
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+    width: 22rem;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.sec-img{
+    position: absolute;
+    max-width: none;
+    height: 65vh;
+    right: 0%;
+}
+
+.btn{
+    background-color: #0067b8;
+    color: #fff;
+    margin-left: 8rem;
+    margin-top: 1.5em;
+    width: 6.5rem;
+    border: 0.125rem solid transparent;
+    height: 2.5rem;
+    font-weight: 600;
+    border-radius: 0.125rem;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* ===========================SEC-2================================================================== */
+
+.sidebar{
+    margin-top: 5rem;
+}
+
+.bar{
+    gap: 2.5rem;
+}
+
+.bar-card{
+    list-style: none;
+    gap: .7rem;
+}
+
+.bar-card a{
+    color: #0067b8;
+    font-weight: 600;
+}
+
+/* ===============================SEC-3 ========================================================= */
+
+.sec-3{
+    margin-top: 5rem;
+}
+
+.card{
+    width: 21%;
+}
+
+.picture img{
+    width: 100%;
+}
+
+.content h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 1.8125rem;
+}
+
+content p{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.card-footer{
+    margin-top: 1rem;
+}
+
+.card-footer a{
+    color: #0067b8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ==================================SEC-4===================================== */
+
+.sec-4{
+    margin-top: 1.75rem;
+    height: 75vh;
+    padding: 5rem;
+}
+
+.img-container{
+    background: url("../images/edge.jfif") no-repeat center center / cover;
+    border: 0.125rem solid transparent;
+    border-radius: 0.125rem;
+    height: 95%;
+    width: 100%;
+}
+
+.img-content{
+    background-color: #fff;
+    margin-left: 3rem;
+    border: 0.125rem solid transparent;
+    z-index: 5;
+    width: 33%;
+    height: 55%;
+}
+
+.img-content h2{
+    margin-left: 3rem;
+    width: 18rem;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 2.3125rem;
+}
+
+.img-content p{
+    margin-left: 3rem;
+}
+
+.big-btn{
+    background-color: #0067b8;
+    color: #fff;
+    border: 0.125rem solid transparent;
+    height: 2.5rem;
+    font-weight: 600;
+    border-radius: 0.125rem;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 3rem;
+    margin-top: 10px;
+    width: 8.5rem;
+
+}
+
+/* =================================SEC-5============================== */
+.sec-5{
+    margin-top: -1rem;
+    margin-bottom: 10rem;
+}
+
+.card-head{
+    margin: 1rem 84px;
+    width: 18rem;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 2.3125rem;
+}
+
+/* =============================Footer==================== */
+
+.footer{
+    background-color: #f2f2f2;
+    /* height: 50vh; */
+    padding: 2rem 5rem;
+}
+.foot-list{
+    width: 20%;
+}
+
+.foot-list{
+    width: 80%;
+}
+
+.foot-items{
+    list-style: none;
+    margin: 1rem 0px;
+    font-size: 11px;
+    line-height: 16px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #616161;
+}
+
+.head{
+    color: #616161;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
